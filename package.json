@@ -22,8 +22,7 @@
     "build": "nest build",
     "lint": "eslint --ext=ts ./src",
     "prepublishOnly": "yarn build",
-    "test": "jest",
-    "commit": "czg"
+    "test": "jest"
   },
   "peerDependencies": {
     "@nestjs/common": ">=6",
@@ -42,8 +41,6 @@
     "@types/supertest": "2.0.11",
     "@typescript-eslint/eslint-plugin": "5.12.1",
     "@typescript-eslint/parser": "5.12.1",
-    "cz-git": "1.7.0",
-    "czg": "1.7.0",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.4.0",
     "eslint-plugin-import": "2.25.4",
@@ -79,10 +76,5 @@
   ],
   "engines": {
     "node": ">=10.21"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-git"
-    }
   }
 }
