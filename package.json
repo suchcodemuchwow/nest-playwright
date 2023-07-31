@@ -21,7 +21,7 @@
     "prebuild": "rimraf dist",
     "build": "nest build",
     "lint": "eslint --ext=ts ./src",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "pnpm build",
     "test": "jest"
   },
   "peerDependencies": {
