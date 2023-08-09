@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "nest build",
+    "build": "npx nest build",
     "lint": "eslint --ext=ts ./src",
     "prepublishOnly": "pnpm build",
     "test": "jest"
