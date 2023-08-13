@@ -108,10 +108,7 @@ export class PlaywrightCoreModule
       async useFactory(browser: Browser) {
         return await browser.newContext();
       },
-      inject: [
-        PLAYWRIGHT_MODULE_OPTIONS,
-        getBrowserToken(playwrightInstanceName),
-      ],
+      inject: [getBrowserToken(playwrightInstanceName)],
     };
 
     const pageProvider = {
@@ -119,10 +116,7 @@ export class PlaywrightCoreModule
       async useFactory(context: BrowserContext) {
         return await context.newPage();
       },
-      inject: [
-        PLAYWRIGHT_MODULE_OPTIONS,
-        getContextToken(playwrightInstanceName),
-      ],
+      inject: [getContextToken(playwrightInstanceName)],
     };
 
     const asyncProviders = this.createAsyncProviders(options);
