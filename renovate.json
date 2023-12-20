@@ -6,10 +6,10 @@
     "config:base",
     ":automergeMinor"
   ],
-  "baseBranch": "master",
+  "baseBranch": "main",
   "respectLatest": false,
   "labels": ["dependencies"],
-  "timezone": "America/Santo_Domingo",
+  "timezone": "Europe/Stockholm",
   "automerge": true,
   "pin": {
     "requiredStatusChecks": null
