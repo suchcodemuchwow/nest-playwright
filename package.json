@@ -54,7 +54,7 @@
     "npm-package-json-lint": "5.4.2",
     "playwright": "1.40.1",
     "prettier": "2.8.8",
-    "prettier-package-json": "2.6.3",
+    "prettier-package-json": "2.8.0",
     "reflect-metadata": "0.1.13",
     "rimraf": "3.0.2",
     "rxjs": "7.5.4",
