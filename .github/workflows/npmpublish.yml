@@ -29,7 +29,7 @@ jobs:
 
       - run: node --expose-gc node_modules/jest/bin/jest --forceExit --logHeapUsage --runInBand --ci
 
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         with:
           file: ./coverage/coverage-final.json
 
